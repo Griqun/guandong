@@ -12,6 +12,7 @@
       :thumb="item.cover"
       v-for="(item,index) in lists" :key="index"
       @click="toGoods(index)"
+
     />
 <!--addToCart(item)-->
   </div>
